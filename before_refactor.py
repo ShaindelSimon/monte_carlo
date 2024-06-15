@@ -5,6 +5,15 @@ def monte_carlo_integration(f, a, b, N):
     """
     Estimate the integral of function f, in range [a,b], using Monte Carlo methods
     with N samples.
+
+    Parameters:
+    f (function): The function to integrate.
+    a (float): The lower bound of the integration interval.
+    b (float): The upper bound of the integration interval.
+    N (int): The number of random samples to generate.
+
+    Returns:
+    float: The approximate value of the integral.
     """
 
     total_sum = 0
